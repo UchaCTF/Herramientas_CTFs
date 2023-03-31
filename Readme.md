@@ -1,7 +1,3 @@
-# Herramientas para CTFs
-
-Este es un repositorio de Github dedicado a recopilar herramientas útiles para resolver CTFs. A continuación, encontrarás una lista de herramientas organizadas por categoría:
-
 ## Criptografía
 
 - [CyberChef](https://gchq.github.io/CyberChef/) - Herramienta de manipulación de datos para descifrar y codificar mensajes cifrados (página web).
