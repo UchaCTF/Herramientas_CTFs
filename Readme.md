@@ -6,6 +6,12 @@
 Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear y `rockyou.txt` es el archivo que contiene la lista de contraseñas.
 - [John the Ripper](https://www.openwall.com/john/) - Herramienta de cracking de contraseñas que admite varios tipos de cifrado y formatos de archivo (herramienta de línea de comandos).
 Ejemplo de uso: `john hash.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear.
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta para analizar archivos binarios y extraer firmware, imágenes y otros datos incrustados (herramienta de línea de comandos).
+Ejemplo de uso: `binwalk archivo.bin` donde `archivo.bin` es el archivo binario que deseas analizar.
+- [Foremost](https://github.com/korczis/foremost) - Herramienta de recuperación de datos para extraer archivos de un sistema de archivos o una imagen de disco (herramienta de línea de comandos).
+Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de disco que deseas analizar.
+- [Strings](https://linux.die.net/man/1/strings) - Utilidad de línea de comandos que puede buscar cadenas de texto en un archivo binario (herramienta de línea de comandos).
+Ejemplo de uso: `strings archivo.bin` donde `archivo.bin` es el archivo binario del que deseas extraer las cadenas de texto.
 
 ## Esteganografía
 
@@ -30,12 +36,7 @@ Ejemplo de uso: `sqlmap -u "http://example.com/?id=1" --dbms=mysql --dump` donde
 
 ## Misc
 
-- [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta para analizar archivos binarios y extraer firmware, imágenes y otros datos incrustados (herramienta de línea de comandos).
-Ejemplo de uso: `binwalk archivo.bin` donde `archivo.bin` es el archivo binario que deseas analizar.
-- [Foremost](https://github.com/korczis/foremost) - Herramienta de recuperación de datos para extraer archivos de un sistema de archivos o una imagen de disco (herramienta de línea de comandos).
-Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de disco que deseas analizar.
-- [Strings](https://linux.die.net/man/1/strings) - Utilidad de línea de comandos que puede buscar cadenas de texto en un archivo binario (herramienta de línea de comandos).
-Ejemplo de uso: `strings archivo.bin` donde `archivo.bin` es el archivo binario del que deseas extraer las cadenas de texto.
+
 
 ## OSINT
 
