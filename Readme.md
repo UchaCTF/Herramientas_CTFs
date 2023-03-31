@@ -27,6 +27,110 @@ Ejemplo de uso: `exiftool archivo.jpg` donde `archivo.jpg` es el archivo de imag
 Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el archivo de imagen de memoria volátil que deseas analizar.
 - [Wireshark](https://www.wireshark.org/) - Analizador de tráfico de red que puede ser útil para encontrar evidencia en el tráfico de red capturado (herramienta gráfica).
 
+## Distribuciones forenses
+
+- [CAINE](https://www.caine-live.net/)
+- [Kali Linux](https://www.kali.org/) - ([ova Virtualbox](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/))
+- [Paladin LTS](https://sumuri.com/software/paladin/)
+- [SIFT](https://digital-forensics.sans.org/community/downloads)
+
+## Suites forenses
+
+- [OS Forensics](https://www.osforensics.com/) (versión de prueba limitada a 30 días)
+- [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5)
+- [SDL Redline](https://www.mandiant.com/resources/download/redline)
+
+## Adquisición de evidencias volátiles
+
+- [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+- [Nirsoft Suite](https://launcher.nirsoft.net/)
+
+## Adquisición de memoria RAM
+
+- [DumpIt](https://blog.comae.io/dumpit-2-0-20190729/)
+- [WimpMem](https://github.com/KrollOntrack/Forcepoint-DCO-Webinar)
+- [Memoryze](https://www.fireeye.com/services/freeware/memoryze.html)
+- [RamCapture](https://www.magnetforensics.com/resources/magnet-ram-capture/)
+- [Magnet RAM Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/)
+
+## Análisis memoria RAM
+
+- [Volatility](https://www.volatilityfoundation.org/)
+
+## Herramientas de triaje
+
+- [BrimorLabs Live Response Collection](https://github.com/BrimorLabs/BLRC)
+- [IRTriage](https://github.com/irsec/IRTriage)
+- [CyLR](https://github.com/orlikoski/CyLR)
+- [Kape](https://www.kroll.com/en/services/cyber-risk/investigate-and-respond/kape)
+
+## Montaje de imágenes
+
+- [OSF Mount](https://www.osforensics.com/tools/mount-disk-images.html)
+
+## Editor hexadecimal de disco
+
+- [Active disk Editor](https://www.disk-editor.org/)
+
+## Análisis de MFT
+
+- [Mft2Csv](https://tzworks.net/prototype_page.php?proto_id=3)
+
+## Análisis de LogFile y UsnJrnl
+
+- [Log File Parser](https://github.com/jschicht/LogFileParser)
+- [NTFS Log Tracker](https://github.com/jschicht/NTFS-Log-Tracker)
+
+## Análisis del registro de Windows
+
+- [RegRipper](https://github.com/keydet89/RegRipper3.0)
+- [Windows Registry Recover](https://www.nirsoft.net/utils/windows_registry_recovery.html)
+- [Registry Explorer](https://ericzimmerman.github.io/#!index.md)
+- [RECmd](https://ericzimmerman.github.io/#!index.md)
+- [USBDeview](https://www.nirsoft.net/utils/usb_devices_view.html) (análisis de dispositivos USB)
+- [USB Detective](https://www.13cubed.com/products) (análisis de dispositivos USB)
+
+## Análisis de los logs de windows (Event Log)
+
+- [FullEventLogView](https://www.nirsoft.net/utils/full_event_log_view.html) de Nirsoft
+
+## Análisis de Prefetch y Superfetch
+
+- [WindowsPrefetchView](https://www.nirsoft.net/utils/win_prefetch_view.html) de Nirsoft
+- [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)
+
+## Análisis del registro de actividad
+
+- [Windows Timeline Parser](https://github.com/kacos2000/WindowsTimeline)
+- [WxTCmd](https://github.com/EricZimmerman/WxTCmd)
+
+## Análisis de la papelera de reciclaje
+
+- [Rifiuti2](https://github.com/abelcheung/rifiuti2)
+- [RBCmd](https://github.com/kacos2000/RecycleBin)
+
+## Registros de seguimiento (Event Log Tracer, etl)
+
+- [ETLParser](https://github.com/woanware/etlparser)
+
+## Navegadores Web
+
+- [SQLite Studio](https://sqlitestudio.pl/)
+- [IE HistoryView](https://www.nirsoft.net/utils/iehv.html) de Nirsoft
+- [ESEDatabaseView](https://www.nirsoft.net/utils/ese_database_view.html) de Nirsoft
+- [BrowsingHistoryView](https://www.nirsoft.net/utils/browsing_history_view.html) de Nirsoft
+- [IECookiesView](https://www.nirsoft.net/utils/iecookies.html) de Nirsoft
+- [EdgeCookiesView](https://www.nirsoft.net/utils/edge_cookies_view.html) de Nirsoft
+- [IECacheView](https://www.nirsoft.net/utils/ie_cache_viewer.html) de Nirsoft
+- [MZCacheView](https://www.nirsoft.net/utils/mozilla_cache_viewer.html) de Nirsoft
+- [ChromeHistoryView](https://www.nirsoft.net/utils/chrome_history_view.html) de Nirsoft
+- [ChromeCookiesView](https://www.nirsoft.net/utils/chrome_cookies_view.html) de Nirsoft
+- [ChromeCacheView](https://www.nirsoft.net/utils/chrome_cache_view.html) de Nirsoft
+
+## Correo electrónico
+
+- [PST Viewer](https://www.nucleustechnologies.com/pst-viewer.html)
+
 # Hacking Web
 
 - [Burp Suite](https://portswigger.net/burp) - Suite de herramientas de hacking web para probar y explotar vulnerabilidades en aplicaciones web (herramienta gráfica).
