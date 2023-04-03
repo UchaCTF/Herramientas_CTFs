@@ -34,6 +34,8 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 # Forense
 
+### Suites forenses
+
 - [Autopsy](https://www.sleuthkit.org/autopsy/) - Herramienta de análisis forense que puede analizar imágenes de discos y sistemas de archivos (herramienta gráfica).
 
     - **WriteUps de ejemplo**:    
@@ -41,10 +43,10 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 - [Bulk Extractor](https://github.com/simsong/bulk_extractor) - Herramienta de análisis forense digital que extrae automáticamente información como correos electrónicos, números de tarjeta de crédito y URLs de archivos, imágenes de disco y volcados de memoria (herramienta de línea de comandos). Ejemplo de uso: `bulk_extractor -o salida carpeta_imagen.dd` donde `salida` es la carpeta de destino para los resultados del análisis y `carpeta_imagen.dd` es la imagen de disco o archivo que se va a analizar.
 
-### Suites forenses
-
 - [OS Forensics](https://www.osforensics.com/) (versión de prueba limitada a 30 días)
+
 - [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5)
+
 - [SDL Redline](https://www.mandiant.com/resources/download/redline)
 
 ### Análisis memoria RAM
