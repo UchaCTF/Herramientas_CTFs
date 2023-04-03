@@ -35,6 +35,10 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 # Forense
 
 - [Autopsy](https://www.sleuthkit.org/autopsy/) - Herramienta de análisis forense que puede analizar imágenes de discos y sistemas de archivos (herramienta gráfica).
+
+    - **WriteUps de ejemplo**:    
+        - ![Forense en Windows](https://github.com/UchaCTF/WriteUps/tree/main/Forense/Windows/San%20Clemente%20CASO%20%232)
+
 - [Bulk Extractor](https://github.com/simsong/bulk_extractor) - Herramienta de análisis forense digital que extrae automáticamente información como correos electrónicos, números de tarjeta de crédito y URLs de archivos, imágenes de disco y volcados de memoria (herramienta de línea de comandos). Ejemplo de uso: `bulk_extractor -o salida carpeta_imagen.dd` donde `salida` es la carpeta de destino para los resultados del análisis y `carpeta_imagen.dd` es la imagen de disco o archivo que se va a analizar.
 
 ### Suites forenses
@@ -47,6 +51,9 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 - [Volatility](https://www.volatilityfoundation.org/) - Herramienta de análisis de memoria para extraer información de la memoria volátil de un sistema (herramienta de línea de comandos).
 Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el archivo de imagen de memoria volátil que deseas analizar.
+
+    - **WriteUps de ejemplo**:    
+        - ![Forense en Windows](https://github.com/UchaCTF/WriteUps/tree/main/Forense/Windows/San%20Clemente%20CASO%20%232)
 
 ### Montaje de imágenes
 
