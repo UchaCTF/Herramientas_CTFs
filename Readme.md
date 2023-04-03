@@ -15,6 +15,10 @@ Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el 
 Ejemplo de uso: `steghide extract -sf imagen.jpg` donde `imagen.jpg` es el archivo de imagen que contiene datos ocultos.
 - [Exiftool](https://exiftool.org/) - Herramienta para leer y escribir metadatos en archivos de imagen, audio y video (herramienta de línea de comandos).
 Ejemplo de uso: `exiftool archivo.jpg` donde `archivo.jpg` es el archivo de imagen del que deseas obtener información.
+
+    - **WriteUps de ejemplo**:    
+        - ![FindLocation](https://github.com/UchaCTF/WriteUps/tree/main/Esteganograf%C3%ADa/VU%20Cyberthon%202023)
+
 - [Foremost](https://github.com/korczis/foremost) - Herramienta de recuperación de datos para extraer archivos de un sistema de archivos o una imagen de disco (herramienta de línea de comandos).
 Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de disco que deseas analizar.
 - [Strings](https://linux.die.net/man/1/strings) - Utilidad de línea de comandos que puede buscar cadenas de texto en un archivo binario (herramienta de línea de comandos). Ejemplo de uso: `strings archivo.bin` donde `archivo.bin` es el archivo binario del que deseas extraer las cadenas de texto.
@@ -31,8 +35,6 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 # Forense
 
 - [Autopsy](https://www.sleuthkit.org/autopsy/) - Herramienta de análisis forense que puede analizar imágenes de discos y sistemas de archivos (herramienta gráfica).
-- [Volatility](https://www.volatilityfoundation.org/) - Herramienta de análisis de memoria para extraer información de la memoria volátil de un sistema (herramienta de línea de comandos).
-Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el archivo de imagen de memoria volátil que deseas analizar.
 - [Bulk Extractor](https://github.com/simsong/bulk_extractor) - Herramienta de análisis forense digital que extrae automáticamente información como correos electrónicos, números de tarjeta de crédito y URLs de archivos, imágenes de disco y volcados de memoria (herramienta de línea de comandos). Ejemplo de uso: `bulk_extractor -o salida carpeta_imagen.dd` donde `salida` es la carpeta de destino para los resultados del análisis y `carpeta_imagen.dd` es la imagen de disco o archivo que se va a analizar.
 
 ### Suites forenses
@@ -43,7 +45,8 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
 
 ### Análisis memoria RAM
 
-- [Volatility](https://www.volatilityfoundation.org/)
+- [Volatility](https://www.volatilityfoundation.org/) - Herramienta de análisis de memoria para extraer información de la memoria volátil de un sistema (herramienta de línea de comandos).
+Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el archivo de imagen de memoria volátil que deseas analizar.
 
 ### Montaje de imágenes
 
