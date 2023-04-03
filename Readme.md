@@ -1,4 +1,3 @@
-
 # Criptografía
 
 - [CyberChef](https://gchq.github.io/CyberChef/) - Herramienta de manipulación de datos para descifrar y codificar mensajes cifrados (página web).
