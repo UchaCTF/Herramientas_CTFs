@@ -142,5 +142,7 @@ Ejemplo de uso: `tcpdump -i eth0 tcp port 80` donde `eth0` es la interfaz de red
 - [Scapy](https://scapy.net/) - Herramienta de manipulación de paquetes de red que puede ser útil para crear y enviar paquetes personalizados (herramienta de línea de comandos).
 Ejemplo de uso: `sudo scapy` para iniciar Scapy en modo interactivo y luego `send(IP(dst="www.google.com")/ICMP())` para enviar un paquete ICMP a la dirección IP de Google.
 - [Wireshark](https://www.wireshark.org/) - Analizador de tráfico de red que puede ser útil para encontrar y analizar paquetes específicos (herramienta gráfica).
+* WriteUps: *
++ [Teclado USB](https://github.com/UchaCTF/WriteUps/tree/main/Tr%C3%A1fico%20de%20Red/2023Vishwactf/inj3ct0r)
 
 
