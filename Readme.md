@@ -4,14 +4,14 @@
 - [CyberChef](https://gchq.github.io/CyberChef/) - Herramienta de manipulación de datos para descifrar y codificar mensajes cifrados (página web).
 - [Hashcat](https://hashcat.net/hashcat/) - Herramienta de cracking de contraseñas que admite una amplia variedad de algoritmos de hash (herramienta de línea de comandos).
 Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear y `rockyou.txt` es el archivo que contiene la lista de contraseñas.
-- [John the Ripper](https://www.openwall.com/john/) - Herramienta de cracking de contraseñas que admite varios tipos de cifrado y formatos de archivo (herramienta de línea de comandos).
+- [John the Ripper](https://www.openwall.com/john/) - Herramienta de cracking de contraseñas que admite varios tipos de cifrado y formatos de archivo (herramienta de línea de comandos). Ejemplo de uso: `john hash.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear.
     - **WriteUps de ejemplo**:    
         - ![TheSenderConundrum](https://github.com/UchaCTF/WriteUps/tree/main/Forense/2023Vishwactf/TheSenderConundrum) (*Zip Cifrado*)
-Ejemplo de uso: `john hash.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear.
-- [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta para analizar archivos binarios y extraer ficheros y otros datos incrustados (herramienta de línea de comandos).
+
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta para analizar archivos binarios y extraer ficheros y otros datos incrustados (herramienta de línea de comandos). Ejemplo de uso: `binwalk archivo.bin` donde `archivo.bin` es el archivo binario que deseas analizar.
     - **WriteUps de ejemplo**:    
         - ![CanYouSeeMe](https://github.com/UchaCTF/WriteUps/tree/main/Esteganograf%C3%ADa/2023Vishwactf/CanYouSeeMe)
-Ejemplo de uso: `binwalk archivo.bin` donde `archivo.bin` es el archivo binario que deseas analizar.
+
 - [Foremost](https://github.com/korczis/foremost) - Herramienta de recuperación de datos para extraer archivos de un sistema de archivos o una imagen de disco (herramienta de línea de comandos).
 Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de disco que deseas analizar.
 - [Strings](https://linux.die.net/man/1/strings) - Utilidad de línea de comandos que puede buscar cadenas de texto en un archivo binario (herramienta de línea de comandos).
