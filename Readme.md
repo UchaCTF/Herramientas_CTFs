@@ -4,6 +4,7 @@
 - [Hashcat](https://hashcat.net/hashcat/) - Herramienta de cracking de contraseñas que admite una amplia variedad de algoritmos de hash (herramienta de línea de comandos).
 Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear y `rockyou.txt` es el archivo que contiene la lista de contraseñas.
 - [John the Ripper](https://www.openwall.com/john/) - Herramienta de cracking de contraseñas que admite varios tipos de cifrado y formatos de archivo (herramienta de línea de comandos). Ejemplo de uso: `john hash.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear.
+
     - **WriteUps de ejemplo**:    
         - ![TheSenderConundrum](https://github.com/UchaCTF/WriteUps/tree/main/Forense/2023Vishwactf/TheSenderConundrum) (*Zip Cifrado*)
 
