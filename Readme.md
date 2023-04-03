@@ -8,14 +8,6 @@ Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el 
     - **WriteUps de ejemplo**:    
         - ![TheSenderConundrum](https://github.com/UchaCTF/WriteUps/tree/main/Forense/2023Vishwactf/TheSenderConundrum) (*Zip Cifrado*)
 
-- [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta para analizar archivos binarios y extraer ficheros y otros datos incrustados (herramienta de línea de comandos). Ejemplo de uso: `binwalk archivo.bin` donde `archivo.bin` es el archivo binario que deseas analizar.
-    - **WriteUps de ejemplo**:    
-        - ![CanYouSeeMe](https://github.com/UchaCTF/WriteUps/tree/main/Esteganograf%C3%ADa/2023Vishwactf/CanYouSeeMe)
-
-- [Foremost](https://github.com/korczis/foremost) - Herramienta de recuperación de datos para extraer archivos de un sistema de archivos o una imagen de disco (herramienta de línea de comandos).
-Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de disco que deseas analizar.
-- [Strings](https://linux.die.net/man/1/strings) - Utilidad de línea de comandos que puede buscar cadenas de texto en un archivo binario (herramienta de línea de comandos).
-Ejemplo de uso: `strings archivo.bin` donde `archivo.bin` es el archivo binario del que deseas extraer las cadenas de texto.
 
 # Esteganografía
 
@@ -23,7 +15,14 @@ Ejemplo de uso: `strings archivo.bin` donde `archivo.bin` es el archivo binario 
 Ejemplo de uso: `steghide extract -sf imagen.jpg` donde `imagen.jpg` es el archivo de imagen que contiene datos ocultos.
 - [Exiftool](https://exiftool.org/) - Herramienta para leer y escribir metadatos en archivos de imagen, audio y video (herramienta de línea de comandos).
 Ejemplo de uso: `exiftool archivo.jpg` donde `archivo.jpg` es el archivo de imagen del que deseas obtener información.
+- [Foremost](https://github.com/korczis/foremost) - Herramienta de recuperación de datos para extraer archivos de un sistema de archivos o una imagen de disco (herramienta de línea de comandos).
+Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de disco que deseas analizar.
+- [Strings](https://linux.die.net/man/1/strings) - Utilidad de línea de comandos que puede buscar cadenas de texto en un archivo binario (herramienta de línea de comandos).
+Ejemplo de uso: `strings archivo.bin` donde `archivo.bin` es el archivo binario del que deseas extraer las cadenas de texto.
 - [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta de análisis y extracción de firmware que permite identificar y extraer archivos y sistemas de archivos incrustados en imágenes de firmware (herramienta de línea de comandos). Ejemplo de uso: `binwalk -e firmware.bin` donde `firmware.bin` es el archivo de firmware que contiene archivos o sistemas de archivos incrustados.
+
+    - **WriteUps de ejemplo**:    
+        - ![CanYouSeeMe](https://github.com/UchaCTF/WriteUps/tree/main/Esteganograf%C3%ADa/2023Vishwactf/CanYouSeeMe)
 
 # Forense
 
