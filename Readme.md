@@ -67,7 +67,8 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
 
 ### Análisis de MFT
 
-- [Mft2Csv](https://tzworks.net/prototype_page.php?proto_id=3)
+- [Mft2Csv_old](https://tzworks.net/prototype_page.php?proto_id=3)
+- [Mft2Csv](https://github.com/jschicht/Mft2Csv/releases/tag/v2.0.0.49)
 
 ### Análisis de LogFile y UsnJrnl
 
