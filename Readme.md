@@ -13,6 +13,10 @@ Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el 
 - [Boxentriq](https://www.boxentriq.com/) - Plataforma en línea que ofrece diversas herramientas y desafíos para el aprendizaje y la práctica de habilidades en áreas como la criptografía, la esteganografía y la resolución de acertijos. Entre sus herramientas se incluyen generadores de claves criptográficas, cifradores y descifradores de mensajes, y herramientas de análisis de criptogramas. (página web).
 - [Dcode](https://www.dcode.fr/) -  plataforma en línea tipo cyberchef que proporciona una amplia variedad de herramientas criptográficas y de codificación para ayudar a cifrar y descifrar datos de forma segura. También ofrece herramientas para la resolución de acertijos y problemas matemáticos, así como para el análisis de criptogramas y códigos. (página web).
 
+    - **WriteUps de ejemplo**:    
+        - ![OverTheWire](https://github.com/albertominan/WriteUps/tree/main/Criptograf%C3%ADa/OverTheWire/Krypton) (*Análisis de frecuencia*)
+      
+      
 # Esteganografía
 
 - [Steghide](http://steghide.sourceforge.net/) - Herramienta de esteganografía para ocultar datos en imágenes y archivos de audio (herramienta de línea de comandos).
