@@ -158,6 +158,11 @@ Ejemplo de uso: `theharvester -d example.com -l 500 -b google` donde `example.co
 - [Pwntools](https://github.com/Gallopsled/pwntools) - Marco de explotación para binarios ejecutables que puede ser útil para crear exploits (herramienta de línea de comandos).
 Ejemplo de uso: `python -c "from pwn import *; print(hexdump(asm(shellcraft.sh())))"` para crear un exploit simple que ejecute una shell en el objetivo.
 
+    - **WriteUps de ejemplo**:    
+        - ![Leet1](https://github.com/UchaCTF/WriteUps/tree/main/Pwning/20230520-Cyberjousting/Leet1) (*Evaluación de expresión numérica - Python*)
+        - ![Basic Pwn](https://github.com/UchaCTF/WriteUps/tree/main/Pwning/nusgreyhats%202023/bay%20pawn) (*Desbordamiento de enteros en C*)
+        
+
 # Reversing
 
 - [Ghidra](https://ghidra-sre.org/) - Marco de ingeniería inversa de código abierto que puede ser útil para analizar binarios ejecutables (herramienta gráfica).
