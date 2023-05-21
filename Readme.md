@@ -1,3 +1,11 @@
+# Tabla de contenidos
+1. [Criptografía](#Criptografía)
+2. [Esteganografía](#Esteganografía)
+3. [Uso](#uso)
+4. [Contribuir](#contribuir)
+5. [Licencia](#licencia)
+
+
 # Criptografía
 
 - [CyberChef](https://gchq.github.io/CyberChef/) - Herramienta de manipulación de datos para descifrar y codificar mensajes cifrados (página web).
