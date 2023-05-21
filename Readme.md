@@ -2,10 +2,11 @@
 1. [Criptografía](#Criptografía)
 2. [Esteganografía](#Esteganografía)
 3. [Forense](#Forense)
-4. [Hacking Web](#Hacking Web)
+4. [Hacking Web](#Hacking-Web)
 5. [OSINT](#OSINT)
 6. [Pwning](#Pwning)
 7. [Reversing](#Reversing)
+8. [Tráfico de Red](#Tráfico-de-Red)
 
 
 # Criptografía
