@@ -1,9 +1,11 @@
 # Tabla de contenidos
 1. [Criptografía](#Criptografía)
 2. [Esteganografía](#Esteganografía)
-3. [Uso](#uso)
-4. [Contribuir](#contribuir)
-5. [Licencia](#licencia)
+3. [Forense](#Forense)
+4. [Hacking Web](#Hacking Web)
+5. [OSINT](#OSINT)
+6. [Pwning](#Pwning)
+7. [Reversing](#Reversing)
 
 
 # Criptografía
