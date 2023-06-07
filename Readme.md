@@ -78,7 +78,7 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
 
 - [OSF Mount](https://www.osforensics.com/tools/mount-disk-images.html)
 
-### Editor hexadecimal de disco
+#### Editor hexadecimal de disco
 
 - [Active disk Editor](https://www.disk-editor.org/)
 
