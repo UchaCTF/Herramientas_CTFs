@@ -66,7 +66,7 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 - [SDL Redline](https://www.mandiant.com/resources/download/redline)
 
-### Análisis memoria RAM
+#### Análisis memoria RAM
 
 - [Volatility](https://www.volatilityfoundation.org/) - Herramienta de análisis de memoria para extraer información de la memoria volátil de un sistema (herramienta de línea de comandos).
 Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el archivo de imagen de memoria volátil que deseas analizar.
