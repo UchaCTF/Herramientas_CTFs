@@ -18,6 +18,7 @@ Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el 
 
     - **WriteUps de ejemplo**:    
         - ![TheSenderConundrum](https://github.com/UchaCTF/WriteUps/tree/main/Forense/2023Vishwactf/TheSenderConundrum) (*Zip Cifrado*)
+        - ![Really-Small-Algorithm](https://github.com/UchaCTF/WriteUps/tree/main/Criptograf%C3%ADa/20230605-Hsctf/really-small-algorithm) (*Cifrado RSA*) 
         
 - [CryptoCorner](https://crypto.interactive-maths.com/) - Herramientas criptográficas y de codificación para ayudar a cifrar y descifrar datos. Algunas de las herramientas que ofrece son generadores de claves criptográficas, cifradores y descifradores de mensajes, y herramientas para el análisis de criptogramas (página web).
 - [AsecuritySite](https://asecuritysite.com/coding/freq) - Herramientas para el análisis y la protección de la información. Una de las herramientas que ofrece es el analizador de frecuencia, que permite analizar la frecuencia de aparición de caracteres en un mensaje cifrado para ayudar a descifrarlo. (página web).
