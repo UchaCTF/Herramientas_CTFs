@@ -193,5 +193,7 @@ Ejemplo de uso: `sudo scapy` para iniciar Scapy en modo interactivo y luego `sen
 
     - **WriteUps de ejemplo**:    
         - ![Inj3ct0r](https://github.com/UchaCTF/WriteUps/tree/main/Tr%C3%A1fico%20de%20Red/2023Vishwactf/inj3ct0r) (*Teclado USB*)
+        - ![Lazy Admin](https://github.com/UchaCTF/WriteUps/tree/main/Tr%C3%A1fico%20de%20Red/0223Texsaw/Lazy%20Admin) (*URL Encoding*)
+        - ![Inj3ct0r](https://github.com/UchaCTF/WriteUps/tree/main/Tr%C3%A1fico%20de%20Red/2023Vishwactf/inj3ct0r) (*Teclado USB*)
 
 
