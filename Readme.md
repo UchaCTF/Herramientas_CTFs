@@ -51,7 +51,7 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 # Forense
 
-##### Suites forenses
+#### Suites forenses
 
 - [Autopsy](https://www.sleuthkit.org/autopsy/) - Herramienta de análisis forense que puede analizar imágenes de discos y sistemas de archivos (herramienta gráfica).
 
@@ -66,7 +66,7 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 - [SDL Redline](https://www.mandiant.com/resources/download/redline)
 
-#### Análisis memoria RAM
+#### Análisis de memoria RAM
 
 - [Volatility](https://www.volatilityfoundation.org/) - Herramienta de análisis de memoria para extraer información de la memoria volátil de un sistema (herramienta de línea de comandos).
 Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el archivo de imagen de memoria volátil que deseas analizar.
@@ -74,7 +74,7 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
     - **WriteUps de ejemplo**:    
         - ![Forense en Windows](https://github.com/UchaCTF/WriteUps/tree/main/Forense/Windows/San%20Clemente%20CASO%20%232)
 
-### Montaje de imágenes
+#### Montaje de imágenes
 
 - [OSF Mount](https://www.osforensics.com/tools/mount-disk-images.html)
 
@@ -82,17 +82,17 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
 
 - [Active disk Editor](https://www.disk-editor.org/)
 
-### Análisis de MFT
+#### Análisis de MFT
 
 - [Mft2Csv_old](https://tzworks.net/prototype_page.php?proto_id=3)
 - [Mft2Csv](https://github.com/jschicht/Mft2Csv/releases/tag/v2.0.0.49)
 
-### Análisis de LogFile y UsnJrnl
+#### Análisis de LogFile y UsnJrnl
 
 - [Log File Parser](https://github.com/jschicht/LogFileParser)
 - [NTFS Log Tracker](https://github.com/jschicht/NTFS-Log-Tracker)
 
-### Análisis del registro de Windows
+#### Análisis del registro de Windows
 
 - [RegRipper](https://github.com/keydet89/RegRipper3.0)
 - [Windows Registry Recover](https://www.nirsoft.net/utils/windows_registry_recovery.html)
@@ -101,30 +101,30 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
 - [USBDeview](https://www.nirsoft.net/utils/usb_devices_view.html) (análisis de dispositivos USB)
 - [USB Detective](https://www.13cubed.com/products) (análisis de dispositivos USB)
 
-### Análisis de los logs de windows (Event Log)
+#### Análisis de los logs de windows (Event Log)
 
 - [FullEventLogView](https://www.nirsoft.net/utils/full_event_log_view.html) de Nirsoft
 
-### Análisis de Prefetch y Superfetch
+#### Análisis de Prefetch y Superfetch
 
 - [WindowsPrefetchView](https://www.nirsoft.net/utils/win_prefetch_view.html) de Nirsoft
 - [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)
 
-### Análisis del registro de actividad
+#### Análisis del registro de actividad
 
 - [Windows Timeline Parser](https://github.com/kacos2000/WindowsTimeline)
 - [WxTCmd](https://github.com/EricZimmerman/WxTCmd)
 
-### Análisis de la papelera de reciclaje
+#### Análisis de la papelera de reciclaje
 
 - [Rifiuti2](https://github.com/abelcheung/rifiuti2)
 - [RBCmd](https://github.com/kacos2000/RecycleBin)
 
-### Registros de seguimiento (Event Log Tracer, etl)
+#### Registros de seguimiento (Event Log Tracer, etl)
 
 - [ETLParser](https://github.com/woanware/etlparser)
 
-### Navegadores Web
+#### Navegadores Web
 
 - [SQLite Studio](https://sqlitestudio.pl/)
 - [IE HistoryView](https://www.nirsoft.net/utils/iehv.html) de Nirsoft
@@ -138,7 +138,7 @@ Ejemplo de uso: `volatility -f memoria.mem imageinfo` donde `memoria.mem` es el 
 - [ChromeCookiesView](https://www.nirsoft.net/utils/chrome_cookies_view.html) de Nirsoft
 - [ChromeCacheView](https://www.nirsoft.net/utils/chrome_cache_view.html) de Nirsoft
 
-### Correo electrónico
+#### Correo electrónico
 
 - [PST Viewer](https://www.nucleustechnologies.com/pst-viewer.html)
 
