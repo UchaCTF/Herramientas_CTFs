@@ -185,6 +185,7 @@ Ejemplo de uso: `python -c "from pwn import *; print(hexdump(asm(shellcraft.sh()
 - [Radare2](https://github.com/radareorg/radare2) - Marco de ingeniería inversa de código abierto que puede ser útil para analizar binarios ejecutables (herramienta de línea de comandos).
 Ejemplo de uso: `r2 archivo` donde `archivo` es el archivo binario que deseas analizar.
 - [IDA Pro](https://www.hex-rays.com/products/ida/) - Desensamblador y depurador que puede ser útil para analizar binarios ejecutables y encontrar vulnerabilidades (herramienta gráfica).
+- [Cutter](https://cutter.re/) es una herramienta gráfica basada en radare2 que ofrece un entorno intuitivo y avanzado para el análisis y la ingeniería inversa de binarios. Con Cutter, puedes explorar la estructura del programa, realizar análisis estático, depurar en tiempo real, utilizar herramientas de ingeniería inversa y encontrar vulnerabilidades en binarios ejecutables de manera eficiente y efectiva.
 
 # Tráfico de Red
 
