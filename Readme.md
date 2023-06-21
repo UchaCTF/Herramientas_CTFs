@@ -150,9 +150,6 @@ Ejemplo de uso: `sqlmap -u "http://example.com/?id=1" --dbms=mysql --dump` donde
 - [OWASP ZAP](https://www.zaproxy.org/) - Proxy de seguridad web de código abierto que se puede utilizar para encontrar y explotar vulnerabilidades (herramienta gráfica).
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Repositorio con una lista de payloads y bypasses útiles para Hacking Web (Repositorio Github y página Web).
 
-# Misc
-
-
 
 # OSINT
 
