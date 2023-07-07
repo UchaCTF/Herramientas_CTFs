@@ -12,6 +12,7 @@
 # Criptografía
 
 - [CyberChef](https://gchq.github.io/CyberChef/) - Potente herramienta en línea desarrollada por el GCHQ (Cuartel General de Comunicaciones del Reino Unido) que ofrece una amplia gama de capacidades de manipulación de datos para descifrar y codificar mensajes. Su interfaz intuitiva y fácil de usar permite a los usuarios explorar y aplicar una variedad de operaciones criptográficas y de codificación de manera rápida y eficiente. (página web).
+- [Multisolver](https://geocaching.dennistreysa.de/multisolver/index.html) - Plataforma en línea que proporciona una variedad de herramientas para el cifrado, descifrado y análisis de mensajes y desafíos criptográficos. Esta plataforma está diseñada específicamente para resolver rompecabezas de geocaching y desafíos similares que requieren habilidades en criptografía y resolución de acertijos. (página web).
 - [Hashcat](https://hashcat.net/hashcat/) - Herramienta de cracking de contraseñas que admite una amplia variedad de algoritmos de hash (herramienta de línea de comandos).
 Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear y `rockyou.txt` es el archivo que contiene la lista de contraseñas.
 - [John the Ripper](https://www.openwall.com/john/) - Herramienta de cracking de contraseñas que admite varios tipos de cifrado y formatos de archivo (herramienta de línea de comandos). Ejemplo de uso: `john hash.txt` donde `hash.txt` es el archivo que contiene los hashes a crackear.
