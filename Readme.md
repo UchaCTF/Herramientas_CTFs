@@ -174,7 +174,7 @@ Ejemplo de uso: `python -c "from pwn import *; print(hexdump(asm(shellcraft.sh()
         - ![Basic Pwn](https://github.com/UchaCTF/WriteUps/tree/main/Pwning/nusgreyhats%202023/bay%20pawn) (*Desbordamiento de enteros en C*)
         - ![Doubler](https://github.com/UchaCTF/WriteUps/blob/main/Pwning/20230605-Hsctf/doubler/Readme.md) (*Desbordamiento de enteros en C*)   
         - ![ed](https://github.com/UchaCTF/WriteUps/blob/main/Pwning/20230605-Hsctf/ed/Readme.md) (*Smashing the Stack*)
-        - ![my_first_pwnie][Pwning/20230915-CSAW23/my_first_pwnie] (*Inyección de comandos**)
+        - ![my_first_pwnie](https://github.com/UchaCTF/WriteUps/blob/main/Pwning/20230915-CSAW23/my_first_pwnie/Readme.md)(*Inyección de comandos*)
        
                
 
