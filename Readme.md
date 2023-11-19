@@ -187,6 +187,9 @@ Ejemplo de uso: `r2 archivo` donde `archivo` es el archivo binario que deseas an
 - [IDA Pro](https://www.hex-rays.com/products/ida/) - Desensamblador y depurador que puede ser útil para analizar binarios ejecutables y encontrar vulnerabilidades (herramienta gráfica).
 - [Cutter](https://cutter.re/) es una herramienta gráfica basada en radare2 que ofrece un entorno intuitivo y avanzado para el análisis y la ingeniería inversa de binarios. Con Cutter, puedes explorar la estructura del programa, realizar análisis estático, depurar en tiempo real, utilizar herramientas de ingeniería inversa y encontrar vulnerabilidades en binarios ejecutables de manera eficiente y efectiva.
 
+    - **WriteUps de ejemplo**:    
+        - ![Pumpking](https://github.com/UchaCTF/WriteUps/tree/main/Reversing/20231111-CodeByGames-Cybercoliseum/ReverseEngineering/Pumpking) (*GHidra - Escritura en directorio /tmp*)
+
 # Tráfico de Red
 
 - [Tcpdump](https://www.tcpdump.org/) - Herramienta de línea de comandos para capturar y analizar el tráfico de red en tiempo real (herramienta de línea de comandos).
