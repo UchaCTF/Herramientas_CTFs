@@ -200,5 +200,6 @@ Ejemplo de uso: `sudo scapy` para iniciar Scapy en modo interactivo y luego `sen
         - ![Lazy Admin](https://github.com/UchaCTF/WriteUps/tree/main/Tr%C3%A1fico%20de%20Red/0223Texsaw/Lazy%20Admin) (*URL Encoding*)
         - ![Security Flag](https://github.com/UchaCTF/WriteUps/tree/main/Tr%C3%A1fico%20de%20Red/2023LACTF-EBE) (*RFC 3514*)
         - ![Over The Wire I](https://github.com/UchaCTF/WriteUps/blob/main/Tr%C3%A1fico%20de%20Red/20231117-1337UP%20LIVE%20CTF-ctf.intigriti.io/Readme.md) (*Fichero ZIP cifrado*)
+        - ![Over The Wire II](https://github.com/UchaCTF/WriteUps/blob/main/Tr%C3%A1fico%20de%20Red/20231117-1337UP%20LIVE%20CTF-ctf.intigriti.io-II/Readme.md) (*Esteganografía en SMTP*)
 
 
