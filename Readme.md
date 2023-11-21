@@ -186,6 +186,7 @@ Ejemplo de uso: `python -c "from pwn import *; print(hexdump(asm(shellcraft.sh()
 Ejemplo de uso: `r2 archivo` donde `archivo` es el archivo binario que deseas analizar.
 - [IDA Pro](https://www.hex-rays.com/products/ida/) - Desensamblador y depurador que puede ser útil para analizar binarios ejecutables y encontrar vulnerabilidades (herramienta gráfica).
 - [Cutter](https://cutter.re/) es una herramienta gráfica basada en radare2 que ofrece un entorno intuitivo y avanzado para el análisis y la ingeniería inversa de binarios. Con Cutter, puedes explorar la estructura del programa, realizar análisis estático, depurar en tiempo real, utilizar herramientas de ingeniería inversa y encontrar vulnerabilidades en binarios ejecutables de manera eficiente y efectiva.
+- [virtual 6502 Disassembler](https://www.masswerk.at/6502/disassembler.html) - Herramienta en línea que permite desensamblar código para el procesador 6502. Puede ser útil para analizar programas escritos para este procesador y entender su funcionamiento interno. Esta herramienta te permite cargar tu código en formato hexadecimal y ver su representación desensamblada.
 
     - **WriteUps de ejemplo**:    
         - ![Pumpking](https://github.com/UchaCTF/WriteUps/tree/main/Reversing/20231111-CodeByGames-Cybercoliseum/ReverseEngineering/Pumpking) (*GHidra - Escritura en directorio /tmp*)
