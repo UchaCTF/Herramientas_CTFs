@@ -33,6 +33,7 @@ Ejemplo de uso: `hashcat -m 0 -a 0 hash.txt rockyou.txt` donde `hash.txt` es el 
 # Esteganografía
 - [Forensically](https://29a.ch/photo-forensics/#error-level-analysis) - Herramienta en línea para análisis forense de imágenes. Incluye funciones como análisis de nivel de error, detección de manipulación y más. (página web)
 - [Stegonline](https://stegonline.georgeom.net/upload) - Plataforma en línea para la esteganografía, que permite ocultar y descubrir información en imágenes. Admite varios métodos de esteganografía. (página web)
+- [Aperisolve](https://www.aperisolve.com/) - Aperi'Solve es una plataforma en línea que realiza análisis de capas en imágenes. La plataforma también utiliza zsteg, steghide, outguess, exiftool, binwalk, foremost y strings para un análisis más profundo de la esteganografía. Soporta los siguientes formatos de imagen: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff... (página web)
 - [Steghide](http://steghide.sourceforge.net/) - Herramienta de esteganografía para ocultar datos en imágenes y archivos de audio (herramienta de línea de comandos).
 Ejemplo de uso: `steghide extract -sf imagen.jpg` donde `imagen.jpg` es el archivo de imagen que contiene datos ocultos.
 - [Exiftool](https://exiftool.org/) - Herramienta para leer y escribir metadatos en archivos de imagen, audio y video (herramienta de línea de comandos).
