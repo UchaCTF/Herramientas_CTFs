@@ -52,6 +52,7 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
         - ![CanYouSeeMe](https://github.com/UchaCTF/WriteUps/tree/main/Esteganograf%C3%ADa/2023Vishwactf/CanYouSeeMe) (*Análisis de espectro*)
 
 - [Binwalk](https://github.com/ReFirmLabs/binwalk) - Herramienta de análisis y extracción de firmware que permite identificar y extraer archivos y sistemas de archivos incrustados en imágenes de firmware (herramienta de línea de comandos). Ejemplo de uso: `binwalk -e firmware.bin` donde `firmware.bin` es el archivo de firmware que contiene archivos o sistemas de archivos incrustados.
+- [EzGif](https://ezgif.com/split) - Herramienta en linea que permite extraer los farames de un Gif animado (paǵina web).
 
 # Forense
 
