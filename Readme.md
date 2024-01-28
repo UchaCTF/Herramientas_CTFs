@@ -67,7 +67,7 @@ Ejemplo de uso: `foremost -t all -i imagen.dd` donde `imagen.dd` es la imagen de
 
 - [OS Forensics](https://www.osforensics.com/) (versión de prueba limitada a 30 días)
 
-- [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5)
+- [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5) FTK Imager es una herramienta forense digital desarrollada por AccessData. Se utiliza comúnmente en el campo de la informática forense para adquirir y analizar datos de almacenamiento de medios digitales, como discos duros, dispositivos USB, tarjetas de memoria, entre otros.
 
 - [SDL Redline](https://www.mandiant.com/resources/download/redline)
 
