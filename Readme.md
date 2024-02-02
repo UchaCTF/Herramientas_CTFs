@@ -4,7 +4,7 @@
 3. [Forense](#Forense)
 4. [Hacking Web](#Hacking-Web)
 5. [OSINT](#OSINT)
-6. [Pwning](#Pwning)
+6. [Exploiting (Pwning)](#Pwning)
 7. [Reversing](#Reversing)
 8. [Tráfico de Red](#Tráfico-de-Red)
 
